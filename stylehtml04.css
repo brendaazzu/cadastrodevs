@@ -1,0 +1,121 @@
+
+    body{
+    background-color: #039fab;
+    }
+
+   
+    .container {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        }
+
+        .box {
+        width: 610px;
+        height: 675px;
+        align-items: center;
+        
+        }
+
+  
+       .formulario {
+        background-color: #023a3fe7;
+        margin: 0px auto;
+        display: flex;
+        justify-content: center;
+        padding: 20px 0;
+        border-radius: 20px;
+        font-family: "Zen Kurenaido", sans-serif;
+    }
+
+    .planodefundo {
+     background-image: url(./fundohtml04.png);
+     background-position: center;
+     background-repeat: repeat;
+     background-size: 90% 125%;
+    }
+
+    #titulo {
+        color: #f7e9a8;
+        text-align: center;
+        font-size:2em;
+    }
+    
+    #subtitulo {
+        color: #f7e9a8;
+        text-align: center;
+        font-size: 1.2em;
+    }
+    
+    .campo {
+        color: #f7e9a8;
+        margin-bottom: 10px;
+        
+    }
+    
+    .campo label {
+        color: #f7e9a8;
+        margin-bottom: 0.2em;
+        display: block;
+    }
+
+        
+    .grupo {
+        color: #f7e9a8;
+        display: flex;
+        justify-content: space-between;
+        width: 500px;
+    }
+    
+    .btn {
+        color: #023a3fe7;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .botao {
+        color: #023a3fe7;
+        font-size: 1em;
+        padding: 0.4em 2em;
+        border-radius: 10px;
+        border-width: 1px;
+    
+    }
+    
+    #nome, #sobrenome {
+        width: 100%;
+       
+    } 
+    
+    
+    #email{
+        width: 500px;
+    
+    }
+    
+    input{
+        
+        padding:5px;
+        font-size: 1em;
+    }
+    
+    #check input{
+        color: #023a3fe7;
+        width: 15px;
+        height: 15px;
+    }
+    
+    .radio input{
+        color: #023a3fe7;
+        width: 15px;
+        height: 15px;
+    }
+    
+    select{
+        color:#023a3fe7;
+        padding: 5px;
+        font-size: 1em;
+    }
